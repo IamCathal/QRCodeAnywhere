@@ -1,0 +1,34 @@
+{
+    "name":"QR Code Anywhere",
+    "version":"1.0",
+    "description":"Get a QR code instantly for any webpage. Useful for opening pages displayed on a computer on a mobile device. Simply press Ctrl+Shift+A or click the icon.",
+    "permissions": ["tabs", "storage"],
+    "background": {
+        "peristent": "true"
+    },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16":"images/blueSmiley16.png",
+            "32":"images/blueSmiley32.png",
+            "48":"images/blueSmiley48.png",
+            "128":"images/blueSmiley128.png"
+        }
+    },
+    "icons": {
+        "16":"images/blueSmiley16.png",
+        "32":"images/blueSmiley32.png",
+        "48":"images/blueSmiley48.png",
+        "128":"images/blueSmiley128.png"
+    },
+    "commands": {
+        "_execute_browser_action": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+A",
+                "mac": "MacCtrl+Shift+A"
+            },
+            "description": "Shows text"
+        }
+    },
+    "manifest_version": 2
+}
