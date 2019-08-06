@@ -10,7 +10,12 @@ To publish an application on the chrome web store you have to pay a fee and I do
 ## Installation
 
 1. Download and extract the repository.
-2. Visit `chrome://extensions`, enable Developer Mode on the top right.
-3. Click `Load unpacked` on the top left and select the folder that holds the repository.
-5. Disable Developer Mode once the extension has appeared.
-4. Enjoy
+2. Run `QRCodeAnywhere.crx`
+3. Enjoy
+
+Alternatively you could:
+1. Download and extract the repository.
+2. Visit chrome://extensions, enable Developer Mode on the top right.
+3. Click Load unpacked on the top left and select the folder that holds the repository.
+4. Disable Developer Mode once the extension has appeared.
+5. Enjoy
